@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #334150;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button a {
+  color: #334150;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.button-primary {
+  background-color: #ffdd06;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 120px;
+}
+
+.btn-nav-pri {
+  background-color: #ffdd06;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 15px 25px;
+}
+
+.btn-nav-scnd {
+  background-color: white;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 15px 25px;
+}
+
+.btn-nav-pri .fas {
+  margin-left: 20px;
+}
+
+.btn-nav-pri:hover {
+  background-color: #334150;
+  transition: all 5ms;
+}
+
+.btn-nav-pri:hover a {
+  color: white;
+  transition: all 5ms;
+}
+
+.btn-nav-scnd:hover {
+  background-color: #334150;
+  color: white;
+}
+
+.btn-nav-scnd:hover a {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 14px -8px rgb(0 0 0 / 70%);
+}
+
+/* .btn-nav-pri a:hover {
+  color: white;
+  transition: all 5ms;
+} */
+
+/* header */
+
+header {
+  background-image: url("https://res.cloudinary.com/mcfit/image/upload/q_auto:best,f_auto,dpr_2/v1642504480/McFIT%20Kampagnen/2022_Januar-Kampagne/Update%20vom%2018.01./McFIT_JK2022_Stage-Desktop_1920x1080px_220118");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  /* width: 100%; */
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.nav-menu ul li {
+  display: inline-block;
+}
+
+.nav-menu ul li a {
+  margin: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.nav-menu ul li a:hover {
+  color: #ffdd08;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.hero-header {
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%);
+
+  /* flex-direction: column; */
+  /* margin-top: 500px; */
+  /* align-items: center; */
+}
+
+.hero-header h1 {
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 110px;
+}
+
+.hero-header h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 110px;
+}
